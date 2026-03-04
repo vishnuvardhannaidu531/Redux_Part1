@@ -4,7 +4,7 @@ import { Increment, Decrement } from "./Slice1";
 function Counting() {
     const count = useSelector((state) => state.slice1.count);
     const dispatch = useDispatch();
-
+    // console.log(Increment())
     return (
         <>
             <h1>Counter is : {count}</h1>
